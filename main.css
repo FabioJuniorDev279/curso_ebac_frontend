@@ -9,11 +9,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #formulario {
     display: flex;
     flex-direction: column;
+    margin: 20px;
 }
 
 input {
@@ -24,6 +26,10 @@ input {
     background-color: darksalmon;
     border-color: darksalmon;
     border-width: 0.5px;
+}
+
+input::placeholder {
+    color: whitesmoke;
 }
 
 button {
